@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+height: 200px;
+width: 200px;
+background-color: blue;
+}
+#btn{
+padding: 10px 15px 10px 15px;
+margin: 100px;
+border: 2px dotted red;
+border-radius: 100px;
+}
+.box{
+height: 50px;
+width: 50px;
+margin: 5px;
+padding: 5px;
+border: 2px dotted black;
+background-color: blue;
+}
+#box1{
+box-sizing: content-box;
+}
+#box2{
+box-sizing: border-box;
+}
